@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Cart.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+     <nav>
+        <div class="logo">MobileStore</div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="Products.html">Products</a>
+             <a href="cart.html">Cart</a>
+             <a href="Contact.html">Contact</a>
+             <a href="About.html">About</a>
+        </div>
+     </nav>
+     <!-- CART -->
+      <div class="Cart-box">
+        <h1>🛒 Your Cart</h1>
+        <p>No items added yet</p>
+        <button onclick="goShop()">Go Shopping</button>
+      </div>
+      <script>
+        function goShop(){
+            window.location.href="Products.html";
+        }
+      </script>
+</body>
+</html>
